@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="rgb(37 99 235)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-calendar h-4 w-4 text-blue-600"
+    data-lov-id="src/components/CoverageItemHeader.tsx:19:14" data-lov-name="Calendar"
+    data-component-path="src/components/CoverageItemHeader.tsx" data-component-line="19"
+    data-component-file="CoverageItemHeader.tsx" data-component-name="Calendar"
+    data-component-content="%7B%22className%22%3A%22h-4%20w-4%20text-blue-600%22%7D">
+    <path d="M8 2v4"></path>
+    <path d="M16 2v4"></path>
+    <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+    <path d="M3 10h18"></path>
+</svg>

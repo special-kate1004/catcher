@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-trending-up h-4 w-4 text-gray-600"
+    data-lov-id="src/components/CoverageItemMetrics.tsx:39:10" data-lov-name="TrendingUp"
+    data-component-path="src/components/CoverageItemMetrics.tsx" data-component-line="39"
+    data-component-file="CoverageItemMetrics.tsx" data-component-name="TrendingUp"
+    data-component-content="%7B%22className%22%3A%22h-4%20w-4%20text-gray-600%22%7D">
+    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+    <polyline points="16 7 22 7 22 13"></polyline>
+</svg>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coverage Catcher</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-section-d">
+            <div class="logo-section">
+                <div class="logo-placeholder logo-left">LOGO</div>
+                <div class="logo-placeholder logo-right">LOGO</div>
+            </div>
+    
+            <div class="hero-section-content">
+                <div class="date-badge">September 15th - October 15th, 2024</div>
+                <h1 class="hero-title-h">
+                    <span class="hero-title">Seattle Pizza</span>
+                    <span class="hero-subtitle">City Campaign</span>
+                </h1>
+            
+                <p class="client-info">for Client Name</p>
+            
+                <div class="powered-by">
+                    <img src="assets/images/logoiconCC.png" class="powered-by-logo"></img>
+                    <div class="powered-by-d">
+                        <p class="powered-by-p1">POWERED BY</p>
+                        <p class="powered-by-p2">CoverageCatcher</p>
+                    </div>
+                </div>
+                <div class="report-options">
+                    ⋯
+                    <p>Report options</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    <div class="report-actions">
+      <a href="#" class="btn export-pdf-btn btn-outline">
+        <img src="assets/svgs/download.svg" alt="Export PDF" class="btn-icon" />
+        Export PDF
+      </a>
+      <a href="#" class="btn share-report-btn btn-primary">
+        <img
+          src="assets/svgs/upload-white.svg"
+          alt="Share Report"
+          class="btn-icon"
+          style="color: white"
+        />
+        Share Report
+      </a>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Highlights Section -->
+      <section
+        class=""
+        style="
+          background-image: linear-gradient(
+            to bottom right,
+            #f9fafb,
+            #fff,
+            rgb(248 250 252 / 0.3)
+          );
+          width: 100%;
+        "
+      >
+        <div style="max-width: 72rem" class="highlights-section">
+          <h2 class="section-title">
+            Highlights
+
+            <div class="highlight-underline"></div>
+          </h2>
+          <div class="highlights-grid">
+            <button
+              class="highlights-nav highlights-nav-left"
+              aria-label="Previous Highlight"
+            >
+              <img
+                src="assets/svgs/arrow-left.svg"
+                class="nav-btn-left"
+                alt="Previous"
+              />
+            </button>
+            <div class="highlights-cards-container"></div>
+            <button
+              class="highlights-nav highlights-nav-right"
+              aria-label="Next Highlight"
+            >
+              <img
+                src="assets/svgs/arrow-right.svg"
+                class="nav-btn-right"
+                alt="Next"
+              />
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div class="second-section">
+        <!-- Campaign Overview -->
+        <section style="max-width: 72rem" class="campaign-overview">
+          <div class="overview-header">
+            <img
+              src="assets/svgs/dashboard.svg"
+              class="overview-icon"
+              alt="Overview"
+            />
+            <h2 class="overview-title">Campaign Overview</h2>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-coverage">
+                  <img src="assets/svgs/file-text.svg" alt="Coverage" />
+                </div>
+              </div>
+              <div class="metric-value">43</div>
+              <div class="metric-label">Coverage</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-linking">
+                  <img src="assets/svgs/link.svg" alt="Linking Coverage" />
+                </div>
+              </div>
+              <div class="metric-value">30</div>
+              <div class="metric-label">Linking Coverage</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-mentions">
+                  <img src="assets/svgs/mention.svg" alt="Mentions" />
+                </div>
+              </div>
+              <div class="metric-value">89</div>
+              <div class="metric-label">Mentions</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-audience">
+                  <img src="assets/svgs/peoples.svg" alt="Total Audience" />
+                </div>
+              </div>
+              <div class="metric-value">2.4M</div>
+              <div class="metric-label">Total Audience</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-reach">
+                  <img
+                    src="assets/svgs/eyered.svg"
+                    alt="Lifetime Coverage Reach"
+                  />
+                </div>
+              </div>
+              <div class="metric-value">8.7M</div>
+              <div class="metric-label">Lifetime Coverage Reach</div>
+            </div>
+
+            <div class="metric">
+              <div class="metric-icon">
+                <div class="metric-icon-strength">
+                  <img
+                    src="assets/svgs/graph.svg"
+                    alt="Average Link Strength"
+                  />
+                </div>
+              </div>
+              <div class="metric-value">4.2</div>
+              <div class="metric-label">Average Link Strength</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Coverage Details -->
+        <section style="max-width: 72rem" class="coverage-details">
+          <div class="coverage-header">
+            <div class="coverage-title">
+              <div class="coverage-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-file-text h-6 w-6 text-white"
+                  data-lov-id="src/components/CoverageReport.tsx:125:16"
+                  data-lov-name="FileText"
+                  data-component-path="src/components/CoverageReport.tsx"
+                  data-component-line="125"
+                  data-component-file="CoverageReport.tsx"
+                  data-component-name="FileText"
+                  data-component-content="%7B%22className%22%3A%22h-6%20w-6%20text-white%22%7D"
+                >
+                  <path
+                    d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"
+                  ></path>
+                  <path d="M14 2v4a2 2 0 0 0 2 2h4"></path>
+                  <path d="M10 9H8"></path>
+                  <path d="M16 13H8"></path>
+                  <path d="M16 17H8"></path>
+                </svg>
+              </div>
+              <h2 class="overview-title">Coverage Details</h2>
+            </div>
+            <div class="coverage-items">5 items</div>
+          </div>
+
+          <div class="coverage-item"></div>
+        </section>
+      </div>
+    </main>
+    <button
+      id="scrollToTopBtn"
+      style="
+        display: none;
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        z-index: 1000;
+        padding: 12px;
+        border: none;
+        border-radius: 50%;
+        background: #2c3e50;
+        color: white;
+        font-size: 22px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+      "
+    >
+      <img
+        src="assets/svgs/arrow-up.svg"
+        alt="Scroll to top"
+        style="width: 24px; height: 24px; filter: invert(1)"
+      />
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>

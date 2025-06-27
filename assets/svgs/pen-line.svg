@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="rgb(107 114 128)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-pen-line h-4 w-4 text-gray-500"
+    data-lov-id="src/components/CoverageItemNotation.tsx:29:10" data-lov-name="Edit3"
+    data-component-path="src/components/CoverageItemNotation.tsx" data-component-line="29"
+    data-component-file="CoverageItemNotation.tsx" data-component-name="Edit3"
+    data-component-content="%7B%22className%22%3A%22h-4%20w-4%20text-gray-500%22%7D">
+    <path d="M12 20h9"></path>
+    <path
+        d="M16.376 3.622a1 1 0 0 1 3.002 3.002L7.368 18.635a2 2 0 0 1-.855.506l-2.872.838a.5.5 0 0 1-.62-.62l.838-2.872a2 2 0 0 1 .506-.854z"></path>
+</svg>

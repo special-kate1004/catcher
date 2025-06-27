@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+    stroke="rgb(234 88 12)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    class="lucide lucide-megaphone h-5 w-5 text-orange-600"
+    data-lov-id="src/components/CampaignSummary.tsx:72:20" data-lov-name="IconComponent"
+    data-component-path="src/components/CampaignSummary.tsx" data-component-line="72"
+    data-component-file="CampaignSummary.tsx" data-component-name="IconComponent"
+    data-component-content="%7B%7D">
+    <path d="m3 11 18-5v12L3 14v-3z"></path>
+    <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"></path>
+</svg>
