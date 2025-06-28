@@ -13,7 +13,7 @@ scrollToTopBtn.addEventListener("click", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("data.json")
+  fetch("js/data.json")
     .then((response) => response.json())
     .then((data) => {
       renderHighlights(data.highlights);
@@ -224,7 +224,9 @@ function renderCoverageDetails(details) {
             <p class='coverage-date-p'>Discovered on </p>
             <p class='coverage-date-sp'>${item.date}</p></div>
         </div>
-        <img src='${item.image}' alt='Coverage image' class='coverage-image-bg-img' />
+        <img src='${
+          item.image
+        }' alt='Coverage image' class='coverage-image-bg-img' />
       </div>
       <div class='coverage-item-content'>
         <div class='coverage-source'>${item.source}</div>
